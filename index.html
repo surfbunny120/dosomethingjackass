@@ -61,39 +61,43 @@
 
         .step {
             display: flex;
-            gap: 24px;
-            padding: 40px 0;
-            border-top: 1px solid #e5e5e5;
+            gap: 28px;
+            padding: 32px;
+            margin-bottom: 16px;
+            background: #f8f8f8;
+            border-radius: 12px;
+            border-left: 4px solid #1a1a1a;
+            align-items: flex-start;
         }
 
         .step-number {
             flex-shrink: 0;
-            width: 56px;
-            height: 56px;
+            width: 48px;
+            height: 48px;
             background: #1a1a1a;
             color: #fff;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             font-weight: 800;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
+            margin-top: 2px;
         }
 
         .step-content {
             flex: 1;
         }
 
-        .step-content h2 {
-            font-size: 1.4rem;
-            font-weight: 700;
+        .step-content p {
+            color: #333;
             margin-bottom: 12px;
+            font-size: 1.15rem;
+            line-height: 1.7;
         }
 
-        .step-content p {
-            color: #555;
-            margin-bottom: 16px;
-            font-size: 1.1rem;
+        .step-content p:last-child {
+            margin-bottom: 0;
         }
 
         .step-content a {
@@ -106,47 +110,18 @@
         }
 
         .step-content ul {
-            color: #555;
+            color: #333;
             font-size: 1.1rem;
-            margin: 8px 0 16px 20px;
+            margin: 12px 0 0 20px;
             line-height: 1.8;
+            list-style-type: disc;
         }
 
         .step-content ul ul {
-            margin: 4px 0 8px 20px;
+            margin: 6px 0 8px 24px;
+            list-style-type: circle;
         }
 
-        /* Placeholder image */
-        .image-placeholder {
-            width: 100%;
-            height: 200px;
-            background: #f0f0f0;
-            border: 2px dashed #ccc;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #999;
-            font-size: 0.9rem;
-            margin-bottom: 16px;
-        }
-
-        /* CTA button */
-        .cta-button {
-            display: inline-block;
-            padding: 14px 32px;
-            background: #1a1a1a;
-            color: #fff;
-            text-decoration: none;
-            font-size: 1rem;
-            font-weight: 600;
-            border-radius: 6px;
-            transition: background 0.2s;
-        }
-
-        .cta-button:hover {
-            background: #333;
-        }
 
         /* ---- FOOTER ---- */
         footer {
@@ -164,18 +139,18 @@
             }
 
             .step {
-                flex-direction: column;
-                gap: 16px;
+                padding: 24px 20px;
+                gap: 20px;
             }
 
             .step-number {
-                width: 48px;
-                height: 48px;
-                font-size: 1.3rem;
+                width: 40px;
+                height: 40px;
+                font-size: 1.2rem;
             }
 
-            .step-content h2 {
-                font-size: 1.2rem;
+            .step-content p {
+                font-size: 1.05rem;
             }
         }
     </style>
@@ -190,10 +165,6 @@
             <h1 class="section-title">Apparently, we're being governed by perverts and cowards.</h1>
             <p>Many of them are unable or unwilling to reconcile the rot within our government. Perhaps they are sick with <a href="https://en.wikipedia.org/wiki/Mitch_McConnell" target="_blank" rel="noopener">power</a>. Or <a href="https://en.wikipedia.org/wiki/Chuck_Schumer" target="_blank" rel="noopener">compromised by foreign governments</a>. Or simply just <a href="https://en.wikipedia.org/wiki/Andy_Biggs" target="_blank" rel="noopener">extra-super-perverted-potentially-psycho</a> and/or <a href="https://en.wikipedia.org/wiki/Mike_Johnson" target="_blank" rel="noopener">extra-super-pathetic-pussy-bitch</a>. Or maybe it's just a classic case of <a href="https://en.wikipedia.org/wiki/Lindsey_Graham" target="_blank" rel="noopener">still in the closet</a>.</p>
             <p>It doesn't matter. It doesn't matter why they won't do anything, all that matters is that they keep not doing anything. England <a href="https://apnews.com/article/britain-epstein-andrew-former-prince-arrested-fb0b9e738bf7ede10651914ee3f3583d" target="_blank" rel="noopener">arrested their prince</a>. We can't even get our government to open a single case against the accused because &ndash; <a href="https://www.justice.gov/opa/media/1407001/dl?inline" target="_blank" rel="noopener">according to them</a> &ndash; they <a href="https://www.justice.gov/opa/media/1407001/dl?inline" target="_blank" rel="noopener" style="color: #1a1a1a; text-decoration: none;">&ldquo;did not uncover evidence that could predicate an investigation against uncharged third parties.&rdquo;</a></p>
-            <!-- GIF -->
-            <div style="text-align: center; margin: 24px 0;">
-                <img src="https://media.giphy.com/media/3ohhwfwxg4d1h82LxS/giphy.gif" alt="" width="400" style="max-width: 100%; border-radius: 8px;">
-            </div>
         </div>
 
         <!-- TITLE 2 & TEXT 2 -->
