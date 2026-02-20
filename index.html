@@ -18,29 +18,11 @@
             line-height: 1.6;
         }
 
-        /* ---- HERO ---- */
-        .hero {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 80px 24px 60px;
-            text-align: center;
-        }
-
-        .hero h1 {
-            font-size: 3.2rem;
-            font-weight: 900;
-            letter-spacing: -1px;
-            margin-bottom: 24px;
-        }
-
-        .hero .intro {
-            font-size: 1.2rem;
-            color: #444;
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
         /* ---- INTRO SECTIONS ---- */
+        .intro-section:first-child {
+            padding-top: 80px;
+        }
+
         .intro-section {
             max-width: 720px;
             margin: 0 auto;
@@ -48,9 +30,10 @@
         }
 
         .section-title {
-            font-size: 1.8rem;
-            font-weight: 700;
-            margin-bottom: 16px;
+            font-size: 3.2rem;
+            font-weight: 900;
+            letter-spacing: -1px;
+            margin-bottom: 24px;
         }
 
         .intro-section p {
@@ -145,12 +128,8 @@
 
         /* ---- RESPONSIVE ---- */
         @media (max-width: 600px) {
-            .hero h1 {
+            .section-title {
                 font-size: 2.2rem;
-            }
-
-            .hero .intro {
-                font-size: 1.05rem;
             }
 
             .step {
@@ -172,17 +151,12 @@
 </head>
 <body>
 
-    <!-- HERO -->
-    <section class="hero">
-        <h1>Do Something, Jackass</h1>
-    </section>
-
     <!-- INTRO CONTENT -->
     <section class="steps">
 
         <!-- TITLE 1 & TEXT 1 -->
         <div class="intro-section">
-            <h2 class="section-title">Apparently, we're being governed by perverts and cowards.</h2>
+            <h1 class="section-title">Apparently, we're being governed by perverts and cowards.</h1>
             <p>Additionally (apparently), many of them are unable or unwilling to reconcile the rot within our government. Perhaps they are sick with power. Or compromised by foreign governments. Or simply just extra-super-perverted-potentially-psycho and/or extra-super&mdash;pathetic-pussy-bitch.</p>
             <p>Whatever the cause, it doesn't matter. It doesn't matter why they won't act, all that matters is that they don't. Whatever pressure we the people have applied to these&hellip;folks&hellip;is not going to work. Because it hasn't worked. And it did, it would have worked by now.</p>
         </div>
